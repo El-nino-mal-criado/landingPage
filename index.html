@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>CodeSensei Home</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="brand">
+      Code<span class="sensei">Sensei</span>
+    </div>
+    <ul class="topnav" id="navbar-toggle">
+      <li>
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#">Products</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="dropdownLink">
+        <a onclick="toggleDropdown()" class="hamburger-menu" href="#">&#9776;</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header of the page -->
+  <header>
+    <div class="headershot-wrapper">
+      <img class="header-img" src="assets/coding.png" alt="coding">
+      <h1>Home for Devs</h1>
+    </div>
+  </header>
+
+  <!-- Services section -->
+  <section class="services">
+    <div class="container">
+      <!-- First part of the section-->
+      <div class="media-object">
+        <div class="icon-left">
+          <img class="icon" src="assets/graph_lines.svg" alt="graph chart">
+        </div>
+        <div class="blurb-wrapper-right">
+          <h3 class="blurb-header">Scalable code</h3>
+          <div class="blurb-info">
+            Writing scalable code means that if a new requirements come to you, in how much of a change, you can adapt to that requirement. The lesser the lines required, the more scalable the code is.
+              <br>
+            e.g. Say you are writing Node.js for Mac OSX and now you have to move to writing same for Linux/Debian based system. The code will be considered scalable on the basis of how many lines of code needs to be changed to adapt a Mac code to linux code.
+          </div>
+        </div>
+      </div>
+      <!-- Section part of the section -->
+      <div class="media-object">
+        <div class="icon-right">
+          <img class="icon" src="assets/pie_chart.svg" alt="pie chart">
+        </div>
+        <div class="blurb-wrapper-left">
+          <h3 class="blurb-header">Blurb in HTML</h3>
+          <div class="blurb-info">
+            The work blurb is the most used chunk of HTML code in the Archive, so we’ve revised it a lot. It has to contain lots of information and allow different ways of accessing its material. The blurb is flexible, accessible, and has multiple redundancies (says the same thing in different ways).
+          </div>
+        </div>
+      </div>
+      <!-- Third part of the section -->
+      <div class="media-object">
+        <div class="icon-left">
+          <img class="icon" src="assets/assistant_icon.svg" alt="assistant">
+        </div>
+        <div class="blurb-wrapper-right">
+          <h3 class="blurb-header">6 Months of Support</h3>
+          <div class="blurb-info">
+            Get help with development and app management tools, view documentation, connect with other Apple developers, submit bug reports, and more.
+              <br>
+            Find details and step-by-step instructions on how to use Apple development tools and resources.
+          </div>
+        </div>
+      </div>
+      <div class="quote-btn-wrapper">
+        <button class="quote-btn">Get a quote</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners section -->
+  <section class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h1 class="header">Our Partners</h1>
+      </div>
+      <div class="portfolio-wrapper">
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Partner</h4>
+          <div class="porfolio-text">
+            A business partner is a commercial entity with which another commercial entity has some form of alliance.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Partner</h4>
+          <div class="porfolio-text">
+            A business partner is a commercial entity with which another commercial entity has some form of alliance.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Partner</h4>
+          <div class="porfolio-text">
+            A business partner is a commercial entity with which another commercial entity has some form of alliance.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Partner</h4>
+          <div class="porfolio-text">
+            A business partner is a commercial entity with which another commercial entity has some form of alliance.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Partner</h4>
+          <div class="porfolio-text">
+            A business partner is a commercial entity with which another commercial entity has some form of alliance.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Partner</h4>
+          <div class="porfolio-text">
+            A business partner is a commercial entity with which another commercial entity has some form of alliance.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Partner</h4>
+          <div class="porfolio-text">
+            A business partner is a commercial entity with which another commercial entity has some form of alliance.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Partner</h4>
+          <div class="porfolio-text">
+            A business partner is a commercial entity with which another commercial entity has some form of alliance.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section-->
+  <section class="contact-container">
+    <div class="container">
+      <div class="section-header">
+        <h1>Drop us a line</h1>
+      </div>
+      <form action="">
+        <label for="email">*email</label>
+        <div class="form-group">
+          <input class="form-control" type="email" id="email">
+        </div>
+        <label for="name">*name</label>
+        <div class="form-group">
+          <input class="form-control" type="text" id="name">
+        </div>
+        <label for="name">*message</label>
+        <div class="form-group">
+          <textarea class="form-control" name="message" id="message" rows="6"></textarea>
+        </div>
+        <div class="submit-btn-wrapper">
+          <button class="quote-btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
